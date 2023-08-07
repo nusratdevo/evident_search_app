@@ -1,0 +1,27 @@
+js funtion 
+
+function check(str, val){
+  return str.split(", ").includes(val+"");
+}
+
+var str = "1, 13, 112, 12, 1212, 555"
+
+console.log(check(str, 12));
+console.log(check(str, 121));
+console.log(check(str, 1212));
+
+
+function AK_CHECK(input){
+    var split_cell = input.split(",").indexOf("12");
+    if (split_cell > -1){
+        return "Bicycle"
+        } else {
+        return "NO"}
+        }
+
+if (yourVar.split(',').contains('7')) {
+    //do stuff
+}
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.includes("Mango");
